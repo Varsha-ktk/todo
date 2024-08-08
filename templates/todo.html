@@ -1,0 +1,10 @@
+{% extends 'skydash.html' %}
+{% block content %}
+<h1>TODO</h1>
+<form method='POST'>
+     {% csrf_token %}
+    {{td}}
+<button>submit</button>
+</form>
+
+{% endblock %}
